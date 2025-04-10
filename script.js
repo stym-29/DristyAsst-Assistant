@@ -72,7 +72,10 @@ function takeCommand(message) {
     speak("Hello Sir, what can I help you with?");
   } else if (message.includes("who are you")) {
     speak("I am Zia, created by AbhiTech Technology.");
-  } else if (message.includes("when will my friend get married")) {
+  }else if(message.includes("why drishti isn't afraid of anything")){
+    speak("because she knows whatever might be the situation, satyam will always stand by her always");
+  }
+   else if (message.includes("when will my friend get married")) {
     speak("Never, woh bokachoda single maregaa");
   } else if (message.includes("what is my girlfriend name")) {
     speak("Imiganation");
